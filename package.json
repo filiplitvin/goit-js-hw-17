@@ -1,0 +1,17 @@
+{
+  "name": "hw-77",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "Filip Litvin",
+  "license": "ISC",
+  "devDependencies": {
+    "ghpages": "^0.0.10",
+    "parcel": "^2.16.4"
+  }
+}
